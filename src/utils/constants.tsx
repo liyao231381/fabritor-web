@@ -35,8 +35,32 @@ export const TEXTBOX_DEFAULT_CONFIG = {
 
 export const FONT_PRESET_FAMILY_LIST = [
   { 
+    label: <span style={{ fontFamily: 'OpenSans', fontSize: 16 }}>OpenSans</span>, 
+    value: 'OpenSans' 
+  },
+  { 
+    label: <span style={{ fontFamily: 'Anek Latin', fontSize: 16 }}>Anek Latin</span>, 
+    value: 'Anek Latin' 
+  },
+  { 
+    label: <span style={{ fontFamily: '钉钉进步体', fontSize: 16 }}>钉钉进步体</span>, 
+    value: '钉钉进步体' 
+  },
+  { 
+    label: <span style={{ fontFamily: '金山云字体', fontSize: 16 }}>金山云字体</span>, 
+    value: '金山云字体' 
+  },
+  { 
+    label: <span style={{ fontFamily: '欣意冠黑体', fontSize: 16 }}>欣意冠黑体</span>, 
+    value: '欣意冠黑体' 
+  },  
+  { 
     label: <span style={{ fontFamily: 'SmileySans', fontSize: 16 }}>得意黑</span>, 
     value: 'SmileySans' 
+  },
+  { 
+    label: <span style={{ fontFamily: '霞鹜尚智黑', fontSize: 16 }}>霞鹜尚智黑</span>, 
+    value: '霞鹜尚智黑' 
   },
   { 
     label: <span style={{ fontFamily: '霞鹜新晰黑', fontSize: 16 }}>霞鹜新晰黑</span>, 
@@ -59,8 +83,8 @@ export const FONT_PRESET_FAMILY_LIST = [
     value: 'AlibabaPuHuiTi'
   },
   { 
-    label: <span style={{ fontFamily: '霞鹜尚智黑', fontSize: 16 }}>霞鹜尚智黑</span>, 
-    value: '霞鹜尚智黑' 
+    label: <span style={{ fontFamily: '阿里巴巴', fontSize: 16 }}>阿里巴巴</span>, 
+    value: '阿里巴巴' 
   },
   { 
     label: <span style={{ fontFamily: 'SourceHanSans', fontSize: 16 }}>思源黑体</span>, 

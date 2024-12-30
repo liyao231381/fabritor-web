@@ -4,7 +4,7 @@ import { GlobalStateContext } from '@/context';
 import { SKETCH_ID } from '@/utils/constants';
 import { GroupOutlined, HeartTwoTone } from '@ant-design/icons';
 import ContextMenu from '@/fabritor/components/ContextMenu';
-import DEMOJSON from '@/assets/模板.json';
+import DEMOJSON from '@/assets/封面模板.json';
 import { useTranslation } from '@/i18n/utils';
 
 export default function Layer () {
