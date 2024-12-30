@@ -81,7 +81,7 @@ export default class Editor {
 
   private _initSketch () {
     // default size: xiaohongshu
-    const { width = 1242, height = 1660 } = this._template || {};
+    const { width = 2560, height = 1440 } = this._template || {};
     const sketch = new fabric.Rect({
       fill: '#ffffff',
       left: 0,

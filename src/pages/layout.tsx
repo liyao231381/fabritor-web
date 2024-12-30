@@ -11,19 +11,19 @@ import 'dayjs/locale/zh-cn';
 
 export default function Layout() {
   const [searchParams] = useSearchParams();
-  const lng = searchParams.get('lng') || 'en-US';
+  const lng = searchParams.get('lng') || 'zh-CN';
   const { i18n } = useTranslation();
   const [antDLocale, setAntDLocale] = useState<Locale>(enUS);
 
   useEffect(() => {
-    if (lng === 'en-US') {
-      setAntDLocale(enUS);
-      dayjs.locale('en');
-      i18n.changeLanguage('en-US');
-    } else {
+    if (lng === 'zh-CN') {
       setAntDLocale(zhCN);
       dayjs.locale('zh-cn');
       i18n.changeLanguage('zh-CN');
+    } else {
+      setAntDLocale(enUS);
+      dayjs.locale('en');
+      i18n.changeLanguage('en-US');
     }
   }, [lng]);
 
